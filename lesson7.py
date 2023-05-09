@@ -8,3 +8,14 @@
 # muutos: (HBU)  
 #*****************************************************/
 
+for i in range(11):
+    agent.place(RIGHT)
+    agent.move(FORWARD, 1)
+agent.turn(RIGHT) 
+agent.turn(RIGHT)
+agent.move(UP, 1)  
+for i in range(12):
+    agent.move(FORWARD, 1)
+    agent.place(LEFT)
+
+
